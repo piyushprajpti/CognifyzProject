@@ -23,28 +23,28 @@ fun MainFeed(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         TaskButton(title = "Task 1") {
-//                navController.navigate(Screen.Task1Screen.route)
+                navController.navigate(Screen.Task1Screen.route)
         }
         TaskButton(title = "Task 2") {
-//                navController.navigate(Screen.Task2Screen.route)
+                navController.navigate(Screen.Task2Screen.route)
         }
         TaskButton(title = "Task 3") {
-//                navController.navigate(Screen.Task3Screen.route)
+                navController.navigate(Screen.Task3Screen.route)
         }
         TaskButton(title = "Task 4") {
-//                navController.navigate(Screen.Task4Screen.route)
+                navController.navigate(Screen.Task4Screen.route)
         }
         TaskButton(title = "Task 5") {
-//                navController.navigate(Screen.Task5Screen.route)
+                navController.navigate(Screen.Task5Screen.route)
         }
         TaskButton(title = "Task 6") {
-//                navController.navigate(Screen.Task6Screen.route)
+                navController.navigate(Screen.Task6Screen.route)
         }
         TaskButton(title = "Task 7") {
-//                navController.navigate(Screen.Task7Screen.route)
+                navController.navigate(Screen.Task7Screen.route)
         }
         TaskButton(title = "Task 8") {
-//                navController.navigate(Screen.Task8Screen.route)
+                navController.navigate(Screen.Task8Screen.route)
         }
     }
 }

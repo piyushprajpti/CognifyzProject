@@ -16,7 +16,6 @@ import com.piyushprajpti.cognifyzproject.ui.theme.CognifyzProjectTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             CognifyzProjectTheme {
                 Navigator()

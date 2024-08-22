@@ -22,7 +22,7 @@ fun TaskButton(
 ) {
     Text(
         text = title,
-        fontSize = 20.sp,
+        fontSize = 18.sp,
         textAlign = TextAlign.Center,
         color = Color.Black,
         modifier = Modifier

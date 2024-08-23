@@ -32,7 +32,7 @@ import com.piyushprajpti.cognifyzproject.ui.theme.PrimaryColor
 
 @Composable
 fun DataCard(
-    userData: UserData
+    userData: UserEntity
 ) {
     Column(
         modifier = Modifier
@@ -50,7 +50,7 @@ fun DataCard(
             icon = Icons.Outlined.Home,
             value = userData.address.street + ", " + userData.address.city + ", " + userData.address.zip
         )
-        Field(icon = Icons.Outlined.Accessibility, value = userData.hobbies.fastJoinToString())
+        Field(icon = Icons.Outlined.Accessibility, value = userData.hobbies)
     }
 
     Spacer(modifier = Modifier.height(15.dp))

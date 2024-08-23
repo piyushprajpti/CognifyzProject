@@ -32,6 +32,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.piyushprajpti.cognifyzproject.ui.theme.PrimaryColor
+import com.piyushprajpti.cognifyzproject.util.Titles
 import com.piyushprajpti.cognifyzproject.util.TopBar
 
 @Composable
@@ -67,7 +68,7 @@ fun Task6Screen(onBackClick: () -> Unit) {
         modifier = Modifier
             .fillMaxSize()
     ) {
-        TopBar(onBackClick = onBackClick)
+        TopBar(onBackClick = onBackClick, title = Titles.task6)
 
         Column(
             modifier = Modifier

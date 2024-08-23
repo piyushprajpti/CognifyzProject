@@ -11,6 +11,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.piyushprajpti.cognifyzproject.util.Titles
 import com.piyushprajpti.cognifyzproject.util.TopBar
 
 @Composable
@@ -20,7 +21,7 @@ fun Task1Screen(
     Column(
         modifier = Modifier.fillMaxSize()
     ) {
-        TopBar(onBackClick = onBackClick)
+        TopBar(onBackClick = onBackClick, title = Titles.task1)
 
         Text(
             text = "Hello World!",

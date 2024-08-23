@@ -9,12 +9,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.piyushprajpti.cognifyzproject.util.Titles
 import com.piyushprajpti.cognifyzproject.util.TopBar
 
 @Composable
 fun Task4Screen(onBackClick: () -> Unit) {
     Column(modifier = Modifier.fillMaxSize()) {
-        TopBar(onBackClick = onBackClick)
+        TopBar(onBackClick = onBackClick, title = Titles.task4)
 
         Text(
             text = """"I have already completed the task of building an app with multiple activities and a basic UI layout using Jetpack Compose instead of XML layout."""",

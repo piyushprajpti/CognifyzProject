@@ -17,7 +17,7 @@ fun Task4Screen(onBackClick: () -> Unit) {
         TopBar(onBackClick = onBackClick)
 
         Text(
-            text = """"I have completed the task of building an app with multiple activities and a basic UI layout using Jetpack Compose instead of XML layout."""",
+            text = """"I have already completed the task of building an app with multiple activities and a basic UI layout using Jetpack Compose instead of XML layout."""",
             textAlign = TextAlign.Center,
             fontSize = 20.sp,
             modifier = Modifier.padding(start = 20.dp, top = 150.dp, end = 20.dp, bottom = 0.dp)

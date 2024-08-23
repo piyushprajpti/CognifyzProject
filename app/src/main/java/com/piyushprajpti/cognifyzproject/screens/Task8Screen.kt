@@ -17,7 +17,7 @@ fun Task8Screen(onBackClick: () -> Unit) {
         TopBar(onBackClick = onBackClick)
 
         Text(
-            text = """"I have successfully implemented smooth navigation between screens using NavHost and added transitions to ensure a seamless user experience."""",
+            text = """"I have already implemented smooth navigation between screens using NavHost and added transitions to ensure a seamless user experience."""",
             textAlign = TextAlign.Center,
             fontSize = 20.sp,
             modifier = Modifier.padding(start = 20.dp, top = 150.dp, end = 20.dp, bottom = 0.dp)

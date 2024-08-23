@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.piyushprajpti.cognifyzproject.util.TaskButton
+import com.piyushprajpti.cognifyzproject.util.Titles
 
 @Composable
 fun MainFeed(
@@ -22,28 +23,28 @@ fun MainFeed(
         verticalArrangement = Arrangement.SpaceEvenly,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        TaskButton(title = "Task 1: Hello World App") {
+        TaskButton(title = Titles.task1) {
                 navController.navigate(Screen.Task1Screen.route)
         }
-        TaskButton(title = "Task 2: Button Interaction") {
+        TaskButton(title = Titles.task2) {
                 navController.navigate(Screen.Task2Screen.route)
         }
-        TaskButton(title = "Task 3: List Display") {
+        TaskButton(title = Titles.task3) {
                 navController.navigate(Screen.Task3Screen.route)
         }
-        TaskButton(title = "Task 4: Basic UI Layout") {
+        TaskButton(title = Titles.task4) {
                 navController.navigate(Screen.Task4Screen.route)
         }
-        TaskButton(title = "Task 5: Fetch and Display Data") {
+        TaskButton(title = Titles.task5) {
                 navController.navigate(Screen.Task5Screen.route)
         }
-        TaskButton(title = "Task 6: Simple Form") {
+        TaskButton(title = Titles.task6) {
                 navController.navigate(Screen.Task6Screen.route)
         }
-        TaskButton(title = " Task 7: Basic Database Usage") {
+        TaskButton(title = Titles.task7) {
                 navController.navigate(Screen.Task7Screen.route)
         }
-        TaskButton(title = " Task 8: Implement Navigation") {
+        TaskButton(title = Titles.task8) {
                 navController.navigate(Screen.Task8Screen.route)
         }
     }
